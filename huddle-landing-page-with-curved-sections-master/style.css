@@ -1,0 +1,479 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+  text-align: center;
+  font-family: "Open Sans";
+}
+h1 {
+  font-family: "Poppins";
+}
+
+.button {
+background-color: hsl(322, 100%, 66%);
+color: white;
+padding: 1.8% 8%;
+border-radius: 38px;
+box-shadow: 1px 4px rgba(0,0,0,0.04);
+font-size: 1.3rem;
+font-weight: 700;
+border: none;
+border: 1px solid;
+}
+
+.container-2{
+  margin-left: 5%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.curve-img {
+  width:100%;
+}
+/* Navigation Bar */
+#navbar {
+padding: 2% 4% 4%;
+position:relative;
+}
+
+#navbar img {
+  width: 200px;
+}
+
+.nav-button {
+	background-color:#ffffff;
+  border-radius: 38PX;
+	border:1px solid hsl(322, 100%, 66%);
+	display:inline-block;
+	color:hsl(322, 100%, 66%);
+	font-size:15px;
+  height:40px;
+  width:140px;
+	text-align:center;
+  box-shadow: 1px 2px 1px 1px rgba(0,0,0,0.05);
+  position:absolute;
+  right: 3%;
+}.button:hover {
+	background-color:#ffffff;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+
+/* Top Section */
+
+#top-section {
+  padding: 14%;
+}
+
+#top-section p {
+  padding: 2% 26%;
+}
+
+#top-section img {
+  margin: 5% 0 0;
+  padding: 4% 4% 0;
+  width: 105%;
+}
+
+/* Data Section */
+
+#data-section {
+  margin-top: 0;
+  padding-bottom: 10%;
+}
+
+#data-section h1 {
+  font-size: 5rem;
+}
+
+#data-section p {
+  font-size: 1.2rem;
+}
+
+#data-section img {
+  margin-right: 30%;
+  margin-bottom: 4%;
+}
+
+/* Grow Together Section */
+.grow-class {
+  background-color: hsl(207, 100%, 98%);
+  padding: 6% 0;
+  text-align: left;
+}
+
+.grow-illustration {
+  width: 100%;
+  margin-left: 20%;
+}
+
+.grow-text {
+  margin-top: 28%;
+  margin-right: 5%;
+}
+
+
+
+/* Flowing Conversation Section */
+
+#flowing-convo-section {
+  padding: 12% 0 7%;
+}
+
+#flowing-convo-section img {
+  width: 100%;
+}
+
+.convo-text {
+  margin-left: 20%;
+  text-align: left;
+  margin-top: 24%;
+}
+
+#flowing-convo-section h1 {
+  white-space: nowrap;
+}
+
+#flowing-convo-section p {
+  width: 120%;
+}
+
+/* Your Users Section */
+.user-class {
+  background-color: hsl(207, 100%, 98%);
+  text-align: left;
+  padding: 4% 0;
+  margin-top: -0.5%;
+}
+
+.user-illustration {
+  width: 100%;
+  margin-left: 20%;
+}
+
+.user-text {
+  margin-top: 22%;
+  margin-right: 5%;
+}
+
+
+#users-section h1 {
+  font-size: 2.4rem;
+  padding-bottom: 3%;
+}
+
+#users-section p {
+font-size: 0.98rem;
+}
+
+/* Call to Action */
+#call-to-action {
+  padding: 12%;
+}
+
+#call-to-action h1 {
+  margin-bottom: 5%;
+}
+
+/* Footer */
+.footer {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  padding: 10% 0;
+  text-align: left;
+  margin-top: -0.5%;
+  overflow:auto;
+
+}
+
+.footer-sec1 {
+  padding: 0 18% 0 0;
+}
+
+.footer-sec2 {
+  width: 120%;
+}
+
+.footer-sec1 p {
+margin-bottom: 6%;
+}
+
+.footer-sec2 p {
+  padding-right: 28%;
+  margin-bottom: 8%;
+}
+
+#footer svg {
+  margin-bottom: 8%;
+}
+
+#footer h1 {
+  font-size: 1.8rem;
+  padding: 2% 0;
+}
+
+#footer i {
+  padding: 10% 4% 0 0;
+}
+
+.p-img {
+  display: inline-block;
+  padding: 0 2%;
+}
+
+.footer-button {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  padding: 2% 8%;
+  border-radius: 6px;
+  box-shadow: 1px 4px rgba(0,0,0,0.08);
+  font-size: 0.8rem;
+  font-weight: 700;
+  border-color: hsl(322, 100%, 66%);
+
+}
+
+.footer-input {
+  font-size: 0.8rem;
+  padding: 1.8% 18%;
+  border-radius: 6px;
+  display: inline-block;
+  margin-right: 6%;
+  border: none;
+  border: 1px solid;
+}
+
+@media (max-width: 735px) {
+
+  /* Navigation Bar */
+  .navbar {
+    padding: 4% 2% 20%;
+  }
+
+  #navbar img {
+    width: 30%;
+  }
+
+  .nav-button {
+    margin-right: 0;
+
+    width: 23%;
+    padding: 0;
+    height: 24%;
+    font-size: 0.4rem;
+
+  }
+
+  /* Top Section */
+
+  #top-section {
+    padding: 10% 7%;
+  }
+  #top-section p {
+    padding: 5% 0 10%;
+    font-size: 0.9rem;
+  }
+
+  #top-section h1 {
+    font-size: 1.5rem;
+    padding: 3% 0;
+  }
+
+  #top-section .button {
+    margin-bottom: 25%;
+    width: 70%;
+    font-size: 0.8rem;
+    padding: 3% 0;
+  }
+
+/* Data Section */
+#data-section {
+  margin-top: 12%;
+  padding-bottom: 10%;
+}
+
+#data-section h1 {
+  font-size: 4rem;
+}
+
+#data-section img {
+  width: 10%;
+}
+
+.data-col {
+  padding: 10% 0 6%;
+}
+
+/* Grow Together Section */
+
+.curve-1 {
+  content: url(images/bg-section-top-mobile-1.svg);
+}
+
+.curve-2 {
+  content: url(images/bg-section-bottom-mobile-1.svg);
+}
+
+  .grow-class {
+    padding: 22% 0 15%;
+    text-align: center;
+  }
+
+  .grow-illustration {
+    margin: 0;
+    width: 80%;
+
+  }
+
+  .grow-text {
+    margin-top: 25%;
+    padding: 0 2%;
+    margin-right: 0;
+  }
+
+  #Grow-together-section h1 {
+    font-size: 1.3rem;
+    padding-bottom: 5%;
+  }
+
+  #Grow-together-section p {
+    font-size: 0.9rem;
+
+  }
+
+
+/* Flowing Conversations Section */
+
+.convo-text {
+  margin: 0;
+  text-align: center;
+  padding: 25% 5% 18%;
+}
+#flowing-convo-section h1 {
+  white-space: normal;
+  font-size: 1.3rem;
+}
+#flowing-convo-section p {
+  width: 100%;
+  font-size: 0.85rem;
+  padding: 4% 0;
+}
+
+#flowing-convo-section img {
+  width: 80%;
+}
+
+/* Users section */
+.curve-3 {
+  content: url(images/bg-section-top-mobile-2.svg);
+}
+
+.user-class {
+  text-align: center;
+  padding: 10% 0 20%;
+}
+.user-illustration {
+  margin: 0;
+  width: 80%;
+}
+
+#users-section h1 {
+  font-size: 1.4rem;
+  padding-bottom: 5%;
+}
+
+#users-section p {
+font-size: 0.89rem;
+}
+
+.curve-4 {
+  content: url(images/bg-section-bottom-mobile-2.svg);
+}
+
+/* Call to action */
+
+.cta {
+  padding: 10% 0 70%;
+}
+.cta h1 {
+  font-size: 1.5rem;
+  line-height: 150%;
+  padding: 0 0 10%;
+}
+
+.cta button {
+  width: 70%;
+  font-size: 0.8rem;
+  padding: 4%;
+}
+
+/* Footer */
+
+.footer {
+  padding: 20% 0 20% 5%;
+}
+
+.footer-sec1 {
+  margin-left: 4%;
+  padding: 32% 0 0;
+}
+
+.footer-sec2 {
+  width: 100%;
+  margin: 0;
+}
+
+.footer-sec1 p {
+margin-bottom: 6%;
+padding: 2% 0;
+font-size: 0.92rem;
+}
+
+.footer-sec2 p {
+  padding-right: 2%;
+  margin-bottom: 8%;
+  font-size: 0.92rem;
+}
+
+#footer svg {
+  margin-bottom: 8%;
+
+}
+
+#footer h1 {
+  font-size: 1.8rem;
+  padding: 2% 0;
+}
+
+#footer i {
+  padding: 10% 4% 0 0;
+}
+
+.p-img {
+  display: inline-block;
+  padding: 0 2%;
+}
+
+.footer-button {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  padding: 4% 13%;
+  border-radius: 6px;
+  box-shadow: 1px 4px rgba(0,0,0,0.08);
+  font-size: 0.8rem;
+  font-weight: 700;
+  border-color: hsl(322, 100%, 66%);
+  margin-left: 49%;
+}
+
+.footer-input {
+  font-size: 0.8rem;
+  padding: 4% 25%;
+  border-radius: 6px;
+  display: inline-block;
+  text-align: center;
+  margin: 3% 0;
+}
+
+}
